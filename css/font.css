@@ -1,0 +1,50 @@
+@font-face{
+    font-family: Satisfy ;
+    src:url('../Font/Satisfy/Satisfy-Regular.ttf');
+
+
+}
+
+@font-face{
+    font-family: Sacramentor ;
+    src:url('../Font/Sacramento/Sacramento-Regular.ttf');
+    
+
+}
+@font-face{
+    font-family: Pacifico ;
+    src:url('../Font/Pacifico/Pacifico-Regular.ttf');
+    
+
+}
+@font-face{
+    font-family: Lobster ;
+    src:url('../Font/Lobster/Lobster-Regular.ttf');
+    
+
+}
+@font-face{
+    font-family: Great_Vibes ;
+    src:url('../Font/Great_Vibes/GreatVibes-Regular.ttf');
+    
+
+}
+
+@font-face{
+    font-family: Caveat;
+    src: url('../Font/Caveat/Caveat-Regular.ttf');
+}
+
+@font-face{
+    font-family:Bangers;
+    src: url('../Font/Bangers/Bangers-Regular.ttf');
+}
+
+@font-face{
+    font-family:Bowlby_One_SC;
+    src: url(../Loginphp/Font/Bowlby_One_SC/BowlbyOneSC-Regular.ttf);
+}
+@font-face{
+    font-family:Amatic_SC;
+    src: url(../Font/Amatic_SC/AmaticSC-Regular.ttf);
+}
