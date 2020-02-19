@@ -60,13 +60,10 @@ include 'show.php';
 </div>
 </header>
     
-
-
-
 <main>
+
 <!-- Box biodata--> 
 <section class= "biocontainer" id="BoxBiodata" >
-
 <!-- 1st Card Row --> 
 <div class="container">
     
@@ -76,19 +73,19 @@ include 'show.php';
         <div class="card-image">
         <img src="../Loginphp/Assets/oktaecyeon.jpg" alt="profile one">
         </div>
-      <ul class="social-icons">
-      <li>
+        <ul class="social-icons">
+        <li>
           <a href="https://www.instagram.com/taecyeonokay/?hl=en">
           <i class="fab fa-instagram fa-3x"></i>
           </a>
-      </li>
-      <li>
+        </li>
+        <li>
           <a href="https://twitter.com/taeccool">
           <i class="fab fa-twitter fa-3x"></i>
           </a>
-      </li>
+        </li>
         
-      </ul>
+        </ul>
 
         <div class="details">
         <h2>Ok Taecyeon
@@ -99,10 +96,7 @@ include 'show.php';
     </div>
   </div>
     
-
-  <div class="card-wrapper">
-
-
+<div class="card-wrapper">
 <!-- Minjun's -->  
  <div class="card"data-aos="fade-left" data-aos-delay="200">
         
@@ -209,8 +203,7 @@ include 'show.php';
 
  
  <!-- 3rd Card Row --> 
-<div class="container">
-    
+<div class="container">  
 <div class="card-wrapper">
       <!-- Junho -->  
       <div class="card"data-aos="fade-right" data-aos-delay="200">
@@ -244,7 +237,7 @@ include 'show.php';
   </div>
     
     
-  <div class="card-wrapper">
+<div class="card-wrapper">
       <!--Wooyoung's -->  
       <div class="card"data-aos="fade-left" data-aos-delay="200">
         
@@ -280,19 +273,13 @@ include 'show.php';
   <div class="imgsec"><br>
     <img src="../Loginphp/Assets/2PMpng2.png" alt=""  data-aos="zoom-in" data-aos-delay="200"></div>
 </div><!-- End of 3rd Card Row --> 
-
 </section>
-
-
-
 
 <!-- Intro Section--> 
 <section style=" background:black;" id="About">
 
-      
     <div class="intro">
-  
-    <h1 class="title" data-aos="fade-down-right" data-aos-delay="400">All THE WAY<br>
+   <h1 class="title" data-aos="fade-down-right" data-aos-delay="400">All THE WAY<br>
         <span>2</span> 
         <span>P</span>
         <span>M</span></h1>
@@ -312,8 +299,6 @@ include 'show.php';
          
 <audio src="" controls id="audioPlayer" style="padding:10px;" >
 </audio>
-
-
 <!-- Music playlist--> 
 <ul id="playlist">
 <li class="current-song"><a href="../Loginphp/music/2pmsound.mp3"></a></li>
@@ -355,9 +340,6 @@ include 'show.php';
 <!-- 2oopm section--> 
 <section class="zooPMsection" style=" background:#f5f5f5 ; background-position: center;background-size: cover; min-height:30vh;" >
 <h1 class="zoopm"> 200 PM </h1>
-
-
-
 <div class="post-wrapper"data-aos="flip-up" data-aos-delay="200">
 <div class="container">
     
@@ -401,10 +383,7 @@ include 'show.php';
 </div>
 </section>
 
-
-
- <!-- Footer -->
- 
+<!-- Footer -->
 <section class="footersection" id="footer" >
 <div class="footer">
     <div class="footer-content">
@@ -413,8 +392,7 @@ include 'show.php';
         <div class="contact">
         <h1 class="logo-text"><a href="">SYAQ<img src="../Loginphp/Assets/flame.png" style="width:30px;"><img src="../Loginphp/Assets/ice.png" style="width:30px;">L</a></h1>
       <br><p>This page are inspired by a fan page just for my study purposed.<br> Do visit my original page <b>https://syafiqahazizamprofile.000webhostapp.com</p>
-   
- <br> <span><i class="fas fa-phone fa-2x"></i>&nbsp; 019-7188504</span>
+      <br> <span><i class="fas fa-phone fa-2x"></i>&nbsp; 019-7188504</span>
             <span><i class="fas fa-envelope fa-2x"></i>&nbsp; nursyafiqahazizam@gmail.com</span>
          
             <div class="socials">
@@ -423,13 +401,11 @@ include 'show.php';
           </div>
 </div>
 
+<!-- Email Modal -->
 <img class="email" style="width: 60%;
   height:250px;" src="../Loginphp/Assets/envolope.png"onclick="document.getElementById('id01').style.display='block'">
          
 <div id="id01" class="modal">
-
-
-
 <?php
 echo "<form method='POST'action='".setComments($conn2)."'>
 <input type='hidden' name='uid' value='anonymus'>
@@ -442,9 +418,7 @@ echo "<form method='POST'action='".setComments($conn2)."'>
 ?>
 
 <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-
 </div>
-
 <div class="footer-bottom" >
         &copy; syaqcool.com | Designed by Syafiqah Azizam 
     </div>
