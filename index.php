@@ -345,7 +345,7 @@ include 'show.php';
     
     <?php foreach ($posts as $post):?>
           <div class="post">
-            <div class="badge" style="background:url('<?php echo $post['image']?> ') no-repeat 50%;  background-size: 100%;" >
+            <div class="badge" style="background:url('<?php echo $post['image']?> ') no-repeat 50%;  background-size:100%;" >
           <div class="text"><?php echo $post['owner']?> </div>
           </div>
          
