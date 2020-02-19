@@ -402,9 +402,7 @@ include 'show.php';
 </div>
 
 <!-- Email Modal -->
-<img class="email" style="width: 60%;
-  height:250px;" src="../Loginphp/Assets/envolope.png"onclick="document.getElementById('id01').style.display='block'">
-         
+<img class="email" style="width: 60%; height:250px;" src="../Loginphp/Assets/envolope.png"onclick="document.getElementById('id01').style.display='block'">        
 <div id="id01" class="modal">
 <?php
 echo "<form method='POST'action='".setComments($conn2)."'>
